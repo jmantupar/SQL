@@ -1,0 +1,10 @@
+Checkt out my Storefront database here.
+
+CREATE TABLE Store (ID INTEGER, Product TEXT, Cost Integer, In_Stock INTEGER);
+INSERT INTO Store VALUES (1, "shoes", 200, 10);
+INSERT INTO Store VALUES (2, "shirts", 20, 100);
+INSERT INTO Store VALUES (3, "pants", 30, 100);
+INSERT INTO Store VALUES (4, "socks", 10, 100);
+INSERT INTO Store VALUES (5, "hats", 25, 100);
+
+SELECT * FROM Store ORDER By COST;
